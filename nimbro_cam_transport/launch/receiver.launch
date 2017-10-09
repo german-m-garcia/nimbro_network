@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+	<node name="cam_receiver" pkg="nimbro_cam_transport" type="cam_receiver" output="screen" >
+		<remap from="/cam_receiver/encoded"        to="/cam_sender/encoded"/>
+	</node>
+
+</launch>
+
