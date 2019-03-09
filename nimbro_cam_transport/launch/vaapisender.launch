@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+	<node name="vaapi_sender" pkg="nimbro_cam_transport" type="vaapi_sender" output="screen" >
+		<remap from="/cam_sender/image"        to="/camera/rgb/image_rect_color"/>
+	</node>
+
+</launch>
+

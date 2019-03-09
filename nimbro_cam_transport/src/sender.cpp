@@ -10,10 +10,10 @@
 #include <cv_bridge/cv_bridge.h>
 #include <opencv2/opencv.hpp>
 
-extern "C"
-{
+//extern "C"
+//{
 #include <x264.h>
-}
+//}
 
 #include "rgb_to_yuv420.h"
 
