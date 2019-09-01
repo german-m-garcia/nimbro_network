@@ -2,7 +2,7 @@
 <launch>
 
 	<node name="cam_receiver" pkg="nimbro_cam_transport" type="cam_receiver" output="screen" >
-		<remap from="/cam_receiver/encoded"        to="/cam_sender/encoded"/>
+		<remap from="/cam_receiver/encoded"        to="/vaapi_sender/encoded"/>
 	</node>
 
 </launch>
